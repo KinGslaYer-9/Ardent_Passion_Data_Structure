@@ -20,4 +20,3 @@ int main(void)
 	HanoiTowerMove(3, 'A', 'B', 'C');
 	return 0;
 }
-

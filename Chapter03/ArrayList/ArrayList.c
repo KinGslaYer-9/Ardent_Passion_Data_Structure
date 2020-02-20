@@ -48,7 +48,7 @@ LData LRemove(List* plist)
 	for (int i = removePos; i < lastPos; i++)
 		plist->arr[i] = plist->arr[i + 1];
 
-	(plist->curPosition)--;	// 참조를 하지 않았기 때문에 1만큼 앞으로 이동
+	(plist->curPosition)--;	// LNext에서 다음 값을 참조하기 때문에
 	(plist->numOfData)--;
 	return removeData;
 }
